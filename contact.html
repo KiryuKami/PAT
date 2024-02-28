@@ -36,14 +36,14 @@
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
             <style>
               .rectangle-container {
-                width: 500px; /* Set width according to your requirement */
-                height: 200px; /* Set height according to your requirement */
-                border: 2px solid #ccc;
+                width: 1400px; /* Set width according to your requirement */
+                height: 500px; /* Set height according to your requirement */
+                border: 2px solid rgb(12, 12, 12);
                 border-radius: 5px;
                 padding: 20px;
                 position: absolute; /* Set position to absolute */
                 top: 400px; /* Adjust top position */
-                left: 50px; /* Adjust left position */
+                left: 10px; /* Adjust left position */
                 right: 200px;
               }
             </style>
@@ -52,10 +52,19 @@
             <div class="container mt-5">
               <div class="rectangle-container">
                 <!-- Content goes here -->
-                <h1>Hello, world!</h1>
-                <p>This is a rectangle container.</p>
-          
-        </div>
+                <h3>Fill in the Blanks:</h3>
+                <div class="form-group">
+                  <label for="blank1">Blank 1:</label>
+                  <input type="text" class="form-control" id="blank1" placeholder="YOUR NAME">
+                </div>
+                <div class="form-group">
+                  <label for="blank2">Blank 2:</label>
+                  <input type="text" class="form-control" id="blank2" placeholder="EMAIL">
+                </div>
+                <div class="form-group">
+                  <label for="blank3">Blank 3:</label>
+                  <input type="text" class="form-control" id="blank3" placeholder="MESSAGE">
+                </div>
       </div>
     </nav>
   </body>
