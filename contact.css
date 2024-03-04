@@ -1,0 +1,17 @@
+.header{
+    text-align: center;
+}
+.small-img {
+    width: 100px; /* Set the desired width */
+    height: auto; /* Let the browser adjust the height accordingly to maintain aspect ratio */
+  }
+  .move-nav {
+    position: relative; /* Set position to relative */
+    top: 20px; /* Adjust the top position */
+    left: 1000px; /* Adjust the left position */
+  }
+  body {
+    background-color: #f0f0f0; /* Set the desired background color */
+  }
+  
+  

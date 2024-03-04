@@ -1,39 +1,30 @@
-.green {
-    width: 150px; height: 150px;
+.card-right{
+  float: right;
+  margin-left: 300px;
+ margin-top: -1500px;
 }
-.green-text{
-    float: left;
- padding: 0 20px 20px 0;
-}
-.carousel-image{
-    width: 250px; height: 300px;
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
-    height: 150px;
-  }
-  body{
-    background-color: rgb(119, 20, 224);
-  }
- .purple{
-  width: 150px; height: 200px;
- }
- .light-blue{
-  width: 150px; height: 200px;
- }
- .yellow{
-  float: right; height: 200px; width: 150px; position: relative; top: -350px;
- }
- .yellow-text{
-  float: right; position: relative; top: -150px; left: 150px;
 
- }
- .center-text{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  font-size: larger;
- }
+.footer{
+  background-color: brown; 
+  text-align: center;
+}
+.card-middle{
+  float: right;
+  margin-left: 300px;
+  margin-top: -950px;
+}
+.card-bottem{
+  float: right;
+  margin-left: 300px;
+  margin-top: -475px;
+}
+.blue{
+  height: 250px; width: 300px;
+}
+
+.green{
+  height: 250px; width: 300px;
+}
+.yellow{
+  height: 300px; width: 290px;
+}
