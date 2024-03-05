@@ -11,7 +11,22 @@
     left: 1000px; /* Adjust the left position */
   }
   body {
-    background-color: #f0f0f0; /* Set the desired background color */
+    background-color: #414040; /* Set the desired background color */
   }
+  img {
+    position: absolute; /* Position the image */
+    top: 50%; /* Align image to the vertical center */
+    left: 50%; /* Align image to the horizontal center */
+    transform: translate(-50%, -50%); /* Center the image */
+    max-width: 100%; /* Ensure image does not exceed container width */
+    max-height: 100%; /* Ensure image does not exceed container height */
+}
+body{
+background-color: black;
+}
+
+
+
+
   
   

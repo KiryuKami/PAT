@@ -1,3 +1,21 @@
-p{
+
+
+.body{
+  background-color: black;
+}
+
+
+
+#myCarousel {
+    background-color: black;
+}
+
+.breh{
+    height: 250px; width: 150px;
+}
+p1{
+    text-align: center;
+}
+p2{
     text-align: center;
 }
