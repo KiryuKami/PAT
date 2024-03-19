@@ -1,0 +1,25 @@
+/* CSS to style the webpage */
+body {
+    background-color: black; /* Set the background color of the entire page to black */
+    color: white; /* Set the text color to white for better readability */
+}
+
+
+.Top{
+    background-color: gray
+}
+.container {
+    width: 500px; /* Increase the width */
+    height: 300px; /* Increase the height */
+    border: 2px solid black;
+    background-color: lightblue;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .signup-navbar {
+    background-color: lightblue; /* Set background color to blue */
+}
+
+.signup-navbar .nav-link {
+    color: white; /* Set text color to white for all navbar links */
+}
